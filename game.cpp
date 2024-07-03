@@ -3,6 +3,10 @@ using namespace std;
 int main(){
     int result;
     int heads = 0,tails = 0;
+    string name;
+    cout << "Who are you?" << endl;
+    cin >> name;
+    cout << "Hello, " << name << "!" << endl;  
     cout << "Tossing a Coin..." << endl;
     srand((unsigned int)time(NULL));
     for(int i = 1;i <= 3;i++){
