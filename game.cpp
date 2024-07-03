@@ -22,8 +22,8 @@ int main(){
     }
     cout << "Heads: " << heads << ", Tails: " << tails;
     if(heads > tails){
-        cout << "You won" << endl;
+        cout << name << " won" << endl;
     }else{
-        cout << "You lost" << endl;
+        cout << name << " lost" << endl;
     }
 }
